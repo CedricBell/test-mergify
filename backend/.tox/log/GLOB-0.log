@@ -1,0 +1,47 @@
+action: GLOB, msg: packaging
+cwd: /Users/cjb15/Documents/test-mergify/backend
+cmd: /Users/cjb15/.pyenv/versions/3.9.5/bin/python setup.py sdist --formats=zip --dist-dir .tox/dist
+running sdist
+running egg_info
+writing mergic.egg-info/PKG-INFO
+writing dependency_links to mergic.egg-info/dependency_links.txt
+writing requirements to mergic.egg-info/requires.txt
+writing top-level names to mergic.egg-info/top_level.txt
+reading manifest file 'mergic.egg-info/SOURCES.txt'
+writing manifest file 'mergic.egg-info/SOURCES.txt'
+running check
+warning: check: missing required meta-data: url
+
+warning: check: missing meta-data: either (author and author_email) or (maintainer and maintainer_email) should be supplied
+
+creating mergic-0.0.0
+creating mergic-0.0.0/mergic
+creating mergic-0.0.0/mergic.egg-info
+copying files to mergic-0.0.0...
+copying README.md -> mergic-0.0.0
+copying setup.cfg -> mergic-0.0.0
+copying setup.py -> mergic-0.0.0
+copying mergic/__init__.py -> mergic-0.0.0/mergic
+copying mergic/app.py -> mergic-0.0.0/mergic
+copying mergic.egg-info/PKG-INFO -> mergic-0.0.0/mergic.egg-info
+copying mergic.egg-info/SOURCES.txt -> mergic-0.0.0/mergic.egg-info
+copying mergic.egg-info/dependency_links.txt -> mergic-0.0.0/mergic.egg-info
+copying mergic.egg-info/requires.txt -> mergic-0.0.0/mergic.egg-info
+copying mergic.egg-info/top_level.txt -> mergic-0.0.0/mergic.egg-info
+Writing mergic-0.0.0/setup.cfg
+creating '.tox/dist/mergic-0.0.0.zip' and adding 'mergic-0.0.0' to it
+adding 'mergic-0.0.0'
+adding 'mergic-0.0.0/mergic'
+adding 'mergic-0.0.0/mergic.egg-info'
+adding 'mergic-0.0.0/PKG-INFO'
+adding 'mergic-0.0.0/README.md'
+adding 'mergic-0.0.0/setup.py'
+adding 'mergic-0.0.0/setup.cfg'
+adding 'mergic-0.0.0/mergic/__init__.py'
+adding 'mergic-0.0.0/mergic/app.py'
+adding 'mergic-0.0.0/mergic.egg-info/PKG-INFO'
+adding 'mergic-0.0.0/mergic.egg-info/SOURCES.txt'
+adding 'mergic-0.0.0/mergic.egg-info/requires.txt'
+adding 'mergic-0.0.0/mergic.egg-info/top_level.txt'
+adding 'mergic-0.0.0/mergic.egg-info/dependency_links.txt'
+removing 'mergic-0.0.0' (and everything under it)

@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+mergic/__init__.py
+mergic/app.py
+mergic.egg-info/PKG-INFO
+mergic.egg-info/SOURCES.txt
+mergic.egg-info/dependency_links.txt
+mergic.egg-info/requires.txt
+mergic.egg-info/top_level.txt

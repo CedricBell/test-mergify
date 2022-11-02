@@ -1,0 +1,77 @@
+body {
+  margin-left: 10% !important;
+  margin-right: 10% !important;
+  margin-top: 20px !important;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.columns {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  gap: 10px;
+}
+
+.column {
+  margin: 5px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  flex-basis: 22em;
+  flex-grow: 0;
+  flex-shrink: 0;
+  border-width: 1pt;
+  border-color: gray;
+  border-style: solid;
+  min-height: 500px;
+}
+
+h2 {
+  left: 50%;
+  font-size: 26pt !important;
+}
+
+.pr-card {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.column-title {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 20pt;
+
+}
+
+h1 {
+  font-size: 30pt !important;
+}
+
+.pr-container {
+  margin-top: 100px;
+}
+
+.contenth2 {
+  text-align: center;
+}
+
+.input-repo-url {
+  width: 100%;
+}
+
+.pr-to-review {
+  flex-direction: row;
+  display: flexbox;
+}
